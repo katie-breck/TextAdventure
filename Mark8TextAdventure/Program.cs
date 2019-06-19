@@ -41,7 +41,13 @@ namespace Mark8TextAdventure
                     }
                     else
                     {
-                        Console.WriteLine();
+                        Console.WriteLine("Okay, would you like to go get some food?");
+
+                        if (response == "yes")
+                        {
+                            Console.WriteLine("Okay, there is a food stand right over here.");
+                            Console.WriteLine("Too bad it cost $30 for a tiny box of chicken nuggets.");
+                        }
                     }
                 }
             }
