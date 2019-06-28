@@ -6,8 +6,9 @@ namespace Mark8TextAdventure
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hi, welcome to Blahblah Park!");
+            Console.WriteLine("Hi, welcome to The Best Park Ever!");
             Console.WriteLine("Are you ready to start exploring the park?");
+
             string response = Console.ReadLine();
 
             if (response == "yes")
@@ -19,37 +20,30 @@ namespace Mark8TextAdventure
                 if (response == "yes")
                 {
                     Console.WriteLine("Okay, we will ride The Fog");
-                    Console.WriteLine("Now that the ride is moving, would you like to stand up");
-
-                    if (response == "yes")
-                    {
-                        Console.WriteLine("Oh, no! Your head fell off!");
-                        Console.WriteLine("Sad day!");
-                    }
-                    else
-                    {
-                        Console.WriteLine("Weeeee!");
-                    }
                 }
                 else
                 {
-                    Console.WriteLine("Ok, would you like to find another ride?");
-
-                    if (response == "yes")
-                    {
-                        Console.WriteLine("Great, we will walk around until we find something you want to ride.");
-                    }
-                    else
-                    {
-                        Console.WriteLine("Okay, would you like to go get some food?");
-
-                        if (response == "yes")
-                        {
-                            Console.WriteLine("Okay, there is a food stand right over here.");
-                            Console.WriteLine("Too bad it cost $30 for a tiny box of chicken nuggets.");
-                        }
-                    }
+                    Console.WriteLine("Okay, would you like to find another ride?");
                 }
+                if (response == "yes")
+                {
+                    Console.WriteLine("Great, we will walk around until we find something you want to ride.");
+                }
+                else
+                {
+                    Console.WriteLine("Okay, would you like to go get some food?");
+                }
+                if (response == "yes")
+                {
+                    Console.WriteLine("Okay, there is a food stand right over here.");
+                }
+                else
+                {
+                    Console.WriteLine("Okay, we can find something you will like instead.");
+                }
+                    
+                
+
             }
 
         }
