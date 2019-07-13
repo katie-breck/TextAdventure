@@ -6,45 +6,37 @@ namespace Mark8TextAdventure
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hi, welcome to The Best Park Ever!");
-            Console.WriteLine("Are you ready to start exploring the park?");
+            Console.WriteLine("Hi, we are about to start exploring Sweetwater Plantation.");
+            Console.WriteLine("Would you like to come with us?");
 
             string response = Console.ReadLine();
 
             if (response == "yes")
             {
-                Console.WriteLine("Great!Lets go.");
-                Console.WriteLine("Would you like to ride the roller coaster?");
+                Console.WriteLine("Great! Lets go.");
+                Console.WriteLine("As we are walking up to the house, the fog is starting to roll in over the family cemetery.");
+                Console.WriteLine("Would you like to continue to the house?");
                 response = Console.ReadLine();
 
                 if (response == "yes")
                 {
-                    Console.WriteLine("Okay, we will ride The Fog");
+                    Console.WriteLine("Okay, lets go!");
                 }
                 else
                 {
-                    Console.WriteLine("Okay, would you like to find another ride?");
+                    Console.WriteLine("Okay, some people don't like to get scared. We understand.");
                 }
-                if (response == "yes")
-                {
-                    Console.WriteLine("Great, we will walk around until we find something you want to ride.");
-                }
-                else
-                {
-                    Console.WriteLine("Okay, would you like to go get some food?");
-                }
-                if (response == "yes")
-                {
-                    Console.WriteLine("Okay, there is a food stand right over here.");
-                }
-                else
-                {
-                    Console.WriteLine("Okay, we can find something you will like instead.");
-                }
+            }
+            else
+            {
+                Console.WriteLine("It's okay. We understand. We can go without you.");
+            }
+
+            
                     
                 
 
-            }
+            
 
         }
     }
