@@ -6,7 +6,7 @@ namespace Mark8TextAdventure
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hi, we are about to start exploring Sweetwater Plantation.");
+            Console.WriteLine("Hi, we are about to start exploring the haunted Sweetwater Plantation.");
             Console.WriteLine("Would you like to come with us?");
 
             string response = Console.ReadLine();
@@ -21,6 +21,19 @@ namespace Mark8TextAdventure
                 if (response == "yes")
                 {
                     Console.WriteLine("Okay, lets go!");
+                    Console.WriteLine("As we enter the house, we enter into a big room with old furniture.");
+                    Console.WriteLine("There is a piano in the back of the room! The ledgend says if you play the piano, the lady of the house will come out to play with you.");
+                    Console.WriteLine("Would you like to play the piano?");
+                    response = Console.ReadLine();
+
+                    if (response == "yes")
+                    {
+                        Console.WriteLine("Awesome! I can't wait to see what happens!");
+                    }
+                    else
+                    {
+                        Console.WriteLine("We understand, not everyone likes to get scared.");
+                    }
                 }
                 else
                 {
@@ -29,15 +42,9 @@ namespace Mark8TextAdventure
             }
             else
             {
-                Console.WriteLine("It's okay. We understand. We can go without you.");
+                Console.WriteLine("It's okay. We understand. We will tell you about it when we get back.");
             }
 
-            
-                    
-                
-
-            
-
+        }
         }
     }
-}
